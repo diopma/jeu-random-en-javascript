@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.background{
+    
+     padding:20px;
+     margin-top: 18px;
+     margin-left: 24px;
+     position: absolute;
+     left:200px;
+}
+.background h1{
+    font-size: 30px;
+    background: blueviolet;
+    width: 90%;
+    height: 38px;
+}
+.background h2{
+    font-size: 20px;
+    background: greenyellow;
+    width: 200px;
+    height: 45px;
+    margin-top: 14px;
+}
+#bouton{
+    height: 40px;
+    width:140px;
+    margin-top: 28px;
+    cursor: pointer;
+    border-radius: 20px;
+    border:none;
+    box-shadow:0px 0px 20px #4183C4;
+    -webkit-animation-name: clignote; 
+    -webkit-animation-duration: 1s; 
+    -webkit-animation-iteration-count:infinite;     
+}
+@-webkit-keyframes clignote {
+    0%{box-shadow:0px 0px 10px #ce5648;}
+    50%{box-shadow:0px 0px 0px #c88abd;}
+    100%{box-shadow:0px 0px 10px #4183C4;}
+}
+.champs{
+    padding-top: 10px;
+}
